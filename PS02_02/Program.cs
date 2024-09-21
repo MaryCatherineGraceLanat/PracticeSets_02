@@ -6,13 +6,16 @@ using System.Threading.Tasks;
 
 namespace PS02_02
 {
-    class Program
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        for (int i = 1; i <= 20; i++)
         {
-            /*
-            * Write a program that prints all the odd numbers from 1 to 20 using a for loop. 
-            */
+            if (i % 2 != 0) 
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
